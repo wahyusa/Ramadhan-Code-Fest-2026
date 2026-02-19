@@ -8,7 +8,7 @@ ArcBase is a decentralized NFT launchpad built on **Base Network**. It allows cr
 
 ![ArcBase Banner](https://via.placeholder.com/800x200?text=ArcBase+Protocol)
 
-## 🚀 Key Features
+##  Key Features
 
 *   **Gas Efficient**: Uses **ERC-721A** + **Minimal Proxy (Clones)** pattern to minimize deployment costs (< $2).
 *   **No-Code Deployment**: Deploy contracts directly from the UI.
@@ -17,46 +17,46 @@ ArcBase is a decentralized NFT launchpad built on **Base Network**. It allows cr
 *   **Shareable Mint Links**: Creators can share a link `?address=0x...` for others to mint.
 *   **Auto-Verify**: Integrated manual and auto-verification flows for BaseScan.
 
-## 📚 Documentation
+##  Documentation
 
 *   **[Setup Guide](./SETUP_GUIDE.md)**: How to run the project locally.
 *   **[Architecture Diagram](https://mermaid-ai-editor.com/shared/ac29712e-2f14-4ad0-81ed-e0b890f53f34)**: Logic flow and component interaction.
 *   **[Smart Contracts](./contracts/)**: Solidity source code.
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 *   **Frontend**: Native JS, Lit-HTML, AppKit (Reown).
 *   **Blockchain**: Base Sepolia (Testnet) / Base Mainnet.
 *   **Storage**: IPFS (Pinata).
 *   **Tooling**: Hardhat, Ethers.js v6.
 
-## 🏃‍♂️ Quick Start
+##  Quick Start
 
 1.  Install dependencies: `npm install`
 2.  Configure `.env` (see `.env.example`).
 3.  **Build Frontend**: `node esbuild.build.js` (Wajib! Buat generate `bundle.min.js`)
 4.  Open `frontend/index.html` with Live Server.
 
-## 🌐 Deploy to Netlify (Production)
+##  Deploy to Netlify (Production)
 
 1.  Pastikan sudah run `node esbuild.build.js`.
 2.  Buka [Netlify Drop](https://app.netlify.com/drop).
 3.  **Drag & Drop** folder `frontend` (folder-nya aja) ke sana.
 4.  Selesai! Web langsung live.
 
-## 📂 Struktur Folder Baru
+##  Struktur Folder Baru
 
 *   `frontend/`: Folder siap deploy (Distribution).
     *   `index.html`, `style.css`, `config.js`, `bundle.min.js`.
 *   `frontend/src/`: Source code asli (Development).
     *   `app.js`, `abis.js`, `libs/`.
 
-## 🔗 Share Your Collection
+##  Share Your Collection
 
 To let others mint your NFT, simple share the link:
 `https://your-website.com/?address=YOUR_CONTRACT_ADDRESS`
 
-## 📜 Deployed Contracts
+##  Deployed Contracts
 
 | Network | Contract | Address |
 | :--- | :--- | :--- |
